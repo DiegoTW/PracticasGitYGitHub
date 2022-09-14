@@ -1,0 +1,86 @@
+*, ::before, ::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: radial-gradient(circle, #00f2fe 27%, #5fb3fc 88%);
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  padding: 1rem;
+  background-color: #070838;
+  color: #00f2fe;
+}
+
+h1, h2, h3{
+  color: #070838;
+}
+
+p {
+  margin: 1rem 0;
+}
+
+.section-subtitle {
+  color: #002e36;
+}
+
+ul {
+  display: flex;
+  padding-left: 0;
+  list-style-type: none;
+  justify-content: space-evenly;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+span {
+  font-family: 'Bradley Hand ITC', 'Trebuchet MS', sans-serif;
+  font-weight: 100;
+  text-transform: uppercase;
+  font-style: italic;
+  font-size: 2.4rem;
+}
+
+footer {
+  background-color: #070838;
+  color: #00f2fe;
+  padding: 1rem;
+  text-align: right;
+  font-size: .8rem;
+}
+
+.page-container {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.section {
+  padding: 4rem 2rem 2rem;
+}
+
+.sec-nosotros {
+  /* box-shadow: inset 0 0 20px 5px #00000033; */
+  box-shadow: inset 0 0 20px #00000044;
+  background-color: #f5f5fa;
+}
+
+.sec-nosotros span,
+.sec-contacto span {
+  font-size: 1.6rem;
+  letter-spacing: -2px;
+}
+
