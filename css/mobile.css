@@ -85,3 +85,15 @@ footer {
   letter-spacing: -2px;
 }
 
+.sec-contacto ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.contacto-li {
+  padding: .5rem 1rem;
+}
+
+.contacto-a:hover {
+  color:#f5f5fa;
+}
